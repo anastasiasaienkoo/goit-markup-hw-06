@@ -831,7 +831,7 @@ background-color: #404BBF;
 
         @media screen and (min-width: 1158px) {
             .portf-container {
-                padding: 120px 0 120px 0;
+                padding: 120px 100px 120px 100px;
                 justify-content: center;
                 align-items: center;
 
@@ -840,6 +840,7 @@ background-color: #404BBF;
             .portf-cont  {
                 display: flex;
                 justify-content: center;
+                align-items: center;
                 margin: 0 auto;
                 max-width: 100%;
                 flex-wrap: wrap;
