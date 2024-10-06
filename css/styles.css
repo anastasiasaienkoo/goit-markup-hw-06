@@ -977,7 +977,12 @@ background-color: #404BBF;
             }
 
             .foot-contt {
-                display: block;
+                display: flex;
+                flex-wrap: wrap;
+                column-gap: 24px;
+                row-gap: 0px;
+                justify-content: left;
+                margin-bottom: 0px;
             }
            
             .foot-contt {
@@ -1002,9 +1007,19 @@ background-color: #404BBF;
 
             .foot-contt {
                 display: flex;
+                justify-content: baseline;
                 align-items: baseline;
                 gap: 0;
                 flex-direction: row;
+            }
+
+            .foot-contt {
+                display: flex;
+                flex-wrap: nowrap;
+                justify-content: baseline;
+                align-items: baseline;
+                gap: 0px;
+                margin-bottom: 0px;
             }
 
         }
@@ -1079,7 +1094,13 @@ background-color: #404BBF;
                 align-items: center;
             }
 
-    
+            .foot-contt {
+                flex-direction: row;
+                flex-wrap: nowrap;
+                gap: 0px;
+                align-items: baseline;
+            }
+
 
             
         }
@@ -1163,7 +1184,6 @@ background-color: #404BBF;
             flex-direction: row;
             justify-content: flex-start;
             margin-left: 108px;
-            margin-top: 72px;
            }
 
            .button-social-lb {
@@ -1191,6 +1211,7 @@ background-color: #404BBF;
                 align-items: none;
                 margin-top: 0px;
             }
+
 
             .form-social {
                 gap: 24px;
